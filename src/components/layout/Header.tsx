@@ -19,7 +19,7 @@ export const Header: React.FC = () => {
             </div>
             <div>
               <h1 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                ZeroCode Chat
+                Chat
               </h1>
             </div>
           </div>
