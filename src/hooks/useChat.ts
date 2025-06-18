@@ -41,10 +41,10 @@ export const useChat = () => {
   };
 
   const getBotResponse = async (userMessage: string): Promise<string> => {
-    // Simulate API delay
+    
     await new Promise(resolve => setTimeout(resolve, 1000 + Math.random() * 2000));
 
-    // Mock AI responses
+    
     const responses = [
       "That's an interesting question! Let me think about that...",
       "I understand what you're asking. Here's my perspective on that topic.",
